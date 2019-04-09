@@ -37,8 +37,8 @@ public class FibPair {
 
         System.out.println(
             "The pair after "
-          // + ?? the pair you made
-          // + " is " + nextPairAfter( ?? the pair you made)
+          + pair
+          + " is " + nextPairAfter( pair)
           + " ...expecting " + expect
           + System.lineSeparator());
      }
@@ -52,8 +52,11 @@ public class FibPair {
         the big number is the sum of the given pair
         the small number is the the old big number
      */
-    private static ?? nextPairAfter( ??) {
-        return ?? the next pair;
+    private static Pair nextPairAfter( Pair<Integer> givenPair) {
+        Pair<Integer> nextPair = new Pair<Integer>((givenPair.getFirst() + givenPair.getSecond()),
+                                                    givenPair.getFirst()
+                                                  );
+        return nextPair;
     }
 
 

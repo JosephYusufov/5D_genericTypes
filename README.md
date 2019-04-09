@@ -23,29 +23,29 @@ in [UserSavedByCompiler](https://github.com/stuyvesant-cs/solutionsHolmes/blob/2
 ```
 public class Pair<T>
 ```
-in [class](URL)
+in [Pair](https://github.com/JosephYusufov/5D_genericTypes/blob/master/FibPair/Pair.java)
 
 
 - declaration of a variable that can hold a reference to an instance
 of such a class:
 ```
-        Pair<Integer> pair = new Pair<Integer>(bigger, smaller);
+Pair<Integer> pair
 ```
-in [class](URL)
+in [FibPair](https://github.com/JosephYusufov/5D_genericTypes/blob/master/FibPair/FibPair.java)
 
 
 - assignment to such a variable:
 ```
-your exemplifying line from the Pair example here
+= new Pair<Integer>(bigger, smaller);
 ```
-in [class](URL)
+in [FibPair](https://github.com/JosephYusufov/5D_genericTypes/blob/master/FibPair/FibPair.java)
 
 
 - declaration of a method that returns an instance of such a type:
 ```
-your exemplifying line from the Pair example here
+private static Pair nextPairAfter( Pair givenPair)
 ```
-in [class](URL)
+in [FibPair](https://github.com/JosephYusufov/5D_genericTypes/blob/master/FibPair/FibPair.java)
 
 
 - successful instantiation of an instance of such a class:
